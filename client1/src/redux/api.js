@@ -6,3 +6,8 @@ export const signIn = (formData) => {
     console.log(formData)
     return API.post("/users/signin", formData)
 }
+
+export const signUp=(formData) => {
+    console.log(formData)
+    return API.post("/users/signup", formData)
+}
